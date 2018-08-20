@@ -1,0 +1,38 @@
+{
+  "name": "hsdt-tech/php-embed-fetcher",
+  "description": "Embeddable URLs data fetcher for PHP 7",
+  "keywords": ["metadata", "fetcher", "social-network", "embed", "apester", "image", "instagram", "twitter", "vimeo", "youtube"],
+  "type": "library",
+  "homepage": "https://github.com/hsd-tech/php-embed-fetcher",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "HSDT",
+      "email": "provaleriy@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "ext-json": "*",
+    "psr/log": "^1.0.2",
+    "psr/simple-cache": "^1.0",
+    "guzzlehttp/guzzle": "^6.3",
+    "fig/http-message-util": "^1.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hsdt\\EmbedFetcher\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Hsdt\\EmbedFetcher\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "phpunit -c phpunit.xml"
+  }
+}
