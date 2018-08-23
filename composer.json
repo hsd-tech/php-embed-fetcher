@@ -1,5 +1,5 @@
 {
-  "name": "hsdt-tech/php-embed-fetcher",
+  "name": "hsd-tech/php-embed-fetcher",
   "description": "Embeddable URLs data fetcher for PHP 7",
   "keywords": ["metadata", "fetcher", "social-network", "embed", "apester", "image", "instagram", "twitter", "vimeo", "youtube"],
   "type": "library",
